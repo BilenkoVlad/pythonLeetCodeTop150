@@ -11,3 +11,5 @@ class MergeSortedArray:
         if nums1[0] >= 0:
             while 0 in nums1:
                 nums1.remove(0)
+
+        return nums1
